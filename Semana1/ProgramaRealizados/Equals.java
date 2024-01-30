@@ -17,3 +17,10 @@ public class Equals
     
 }
 
+public class Pato{
+
+    String nombre;
+        public pato (String nombre){
+            this.nombre = nombre;
+        }
+}
