@@ -1,4 +1,4 @@
-package Semana1.ProgramaRealizados;
+package Semana1.ProgramaRealizados.Staticos;
 
 public class Static {
 

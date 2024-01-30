@@ -1,4 +1,4 @@
-package Semana1.ProgramaRealizados;
+package Semana1.ProgramaRealizados.Ejemp2;
 
 public class Ejemplo2
  {

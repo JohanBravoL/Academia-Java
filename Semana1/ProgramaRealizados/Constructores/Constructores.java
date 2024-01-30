@@ -1,4 +1,6 @@
-package Semana1.ProgramaRealizados;
+package Semana1.ProgramaRealizados.Constructores;
+
+import Semana1.ProgramaRealizados.Equals.Pato;
 
 public class Constructores 
 {
