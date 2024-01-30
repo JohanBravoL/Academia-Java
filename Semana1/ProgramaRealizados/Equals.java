@@ -17,10 +17,21 @@ public class Equals
     
 }
 
-public class Pato{
-
+public class Pato
+{
     String nombre;
-        public pato (String nombre){
+        public pato (String nombre)
+        {
             this.nombre = nombre;
+        }
+            //@Override SobreEscritura Ejemplo
+        public boolean equals(Object obj){
+            Pato otroPato = (Pato)onj;
+            return otroPato.nombre.equals(this.nombre);
+
+            //Overloading SobreCarga
+        public boolean equals(Pato obj){
+            return obj.nombre.equals(this.nombre);
+        }
         }
 }
