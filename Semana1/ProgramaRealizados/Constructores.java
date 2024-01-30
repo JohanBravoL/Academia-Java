@@ -11,9 +11,11 @@ public static void main(String[] args)
 
 pubclic class Pato extends Object
     {
-        String name;
-        int edad;
-    
+        String name; //Inica con Null
+        int edad; //Inica con 0 por ser primitivo
+        //Bolean incia con false
+        // super(); --> Manda a llamar al constructor de la clasepadre el cual no recibe parametros
+        // No se puede poner super y this en el mismo constructor
         public Pato(String name)
         {
             this.name = name;
