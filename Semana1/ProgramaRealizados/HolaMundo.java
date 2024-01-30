@@ -7,10 +7,14 @@ public class HolaMundo
         String x = "Hola";
         String y = " Mundo";
         String z = y;
+       
         y = null;
+       
         System.out.println("z: " + z);
         System.out.println("y: " + y);
+       
         x = x.concat(z);
+       
         System.out.println("x: " + x);
     }
     
