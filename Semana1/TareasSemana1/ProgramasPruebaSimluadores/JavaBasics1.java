@@ -4,7 +4,15 @@ public class JavaBasics1 {
 
     final public static void main(String[] args)
     {
-        System.out.println("Hola");
+        String x = "Hola";
+        System.out.println(x);
+
+        //Bajo acoplamiento 
+            //@Autowired
+            //Interface alumno
+
+        //Alto acomplamiento
+            //alumno = new alumno(cantidad de alumnos);
     }
     
 }
