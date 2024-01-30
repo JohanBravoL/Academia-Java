@@ -7,6 +7,7 @@ public static void main(String[] args)
         Pato pato1 = new Pato("Lucas");
         System.out.println(pato1.name);
     }
+}
 
 pubclic class Pato extends Object
     {
@@ -27,5 +28,3 @@ pubclic class Pato extends Object
             this.edad = edad;
         }
     }
-}
-
