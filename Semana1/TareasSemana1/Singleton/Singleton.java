@@ -13,5 +13,13 @@ public class Singleton {
             //Si ambos valores se comparan y quedan de la forma null == null la consola saldra con ture
         System.out.println(venta1.cont1 == venta3.cont1);
         System.out.println(carro.c1);
+
+        carro cont999999 = carro.getInstance();
+        cliente venta9999 = new cliente("KIA", cont999999);
+
+        System.out.println(venta1.cont1 == venta9999.cont1);
+        System.out.println(carro.c1);
+
+
     }
 }
