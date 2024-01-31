@@ -17,9 +17,8 @@ public class Singleton {
         carro cont999999 = carro.getInstance();
         cliente venta9999 = new cliente("KIA", cont999999);
 
+            //Por lo que ahora si apesar de tener n numeros de carro y clientes el numero de objetos creado en el Singleton no aumentara
         System.out.println(venta1.cont1 == venta9999.cont1);
         System.out.println(carro.c1);
-
-
     }
 }
