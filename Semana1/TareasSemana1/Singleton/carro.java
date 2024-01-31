@@ -13,6 +13,8 @@ public class carro {
     }
         //Se debe de crear un metodo Getinstance que regresara el Singleton de forma estatica
     static public carro getInstance(){
+        if (cont1 == null )
+            cont1 = new carro("Sedan");
         return cont1;
     }
     
