@@ -2,8 +2,11 @@ package Semana1.TareasSemana1.Polimorfismo;
 
 public class Animal {
 
-    public SonidoCaracteristico()
+    String SonidoCaracteristico();
+
+    @Override
+    public String toString()
     {
-        System.out.println("Su sonido caracteristico es: ");
+        return getClass().getSimpleName();
     }
 }

@@ -2,13 +2,8 @@ package Semana1.TareasSemana1.Polimorfismo;
 
 public class Cucaracha extends Animal{
 
-    public SonidoCaracteristico()
+    public String SonidoCaracteristico()
     {
-        System.out.println("La cucaracha Cuchichea");
-    }
-    @Override
-    public String toString()
-    {
-        return getClass().getSimpleName();
+        return " por lo que la cucaracha cuchichea";
     }
 }
