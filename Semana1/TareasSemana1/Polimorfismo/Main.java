@@ -1,21 +1,28 @@
 package Semana1.TareasSemana1.Polimorfismo;
-
 import java.rmi.StubNotFoundException;
+import java.util.ArrayList;
 
 import javax.sound.midi.Soundbank;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
+        ArrayList<Animal> coleccionables = new ArrayList<>();
 
-        Animal a1 = new Gato();
-        System.out.println("Animal: "+a1.toString()+a1.SonidoCaracteristico());
+        coleccionables.add(new Perro());
+        coleccionables.add(new Gato());
+        coleccionables.add(new Perico());
+        coleccionables.add(new Cucaracha());
 
-        Animal a2 = new Perico();
-        System.out.println("Animal: "+a2.toString()+a2.SonidoCaracteristico());
-
-        Animal a3 = new Cucaracha();
-        System.out.println("Animal: "+a3.toString()+a3.SonidoCaracteristico());
+        mostrar(coleccionables);
     }
-    
+
+    public static void mostrar(ArrayList<Animal> coleccionables)
+    {
+        for (Animal animal : coleccionables) 
+        {
+            System.out.println("Animal: "+animal.toString()+animal.SonidoCaracteristico());
+        } 
+    }
 }

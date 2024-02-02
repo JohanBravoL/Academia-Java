@@ -1,8 +1,8 @@
 package Semana1.TareasSemana1.Polimorfismo;
 
-public class Animal {
+public abstract class Animal {
 
-    String SonidoCaracteristico();
+    public abstract String SonidoCaracteristico();
 
     @Override
     public String toString()
