@@ -18,6 +18,7 @@ public class Main {
         mostrar(coleccionables);
     }
 
+    //Dentro de esta funcion se implementa el polimorfismo
     public static void mostrar(ArrayList<Animal> coleccionables)
     {
         for (Animal animal : coleccionables) 
