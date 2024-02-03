@@ -9,7 +9,7 @@ public class Equals
             //El equals busca que sea el mismo contenido dentro del objeto
         System.out.println(s1.equals(s2));
         Boolean z;
-            //El == lo que busca es que sea el mismo objetono importando el contenido
+            //El == lo que busca es que sea el mismo objeto no importando el contenido
         z = s1 == s2;
         System.out.println(z);
             //El @Override se refiere a una sobreescritura.
