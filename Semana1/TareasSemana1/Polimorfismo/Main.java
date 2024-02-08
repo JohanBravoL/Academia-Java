@@ -1,8 +1,5 @@
 package Semana1.TareasSemana1.Polimorfismo;
-import java.rmi.StubNotFoundException;
 import java.util.ArrayList;
-
-import javax.sound.midi.Soundbank;
 
 public class Main {
 

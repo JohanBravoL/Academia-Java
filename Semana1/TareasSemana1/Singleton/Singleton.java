@@ -6,7 +6,7 @@ public class Singleton {
         carro cont1 = carro.getInstance();
 
         cliente venta1 = new cliente("Volkswagen",cont1);
-        cliente venta2 = new cliente("Chevrolet",cont1);
+        //cliente venta2 = new cliente("Chevrolet",cont1);
 
         carro cont2 = carro.getInstance();
         cliente venta3 = new cliente("BMW", cont2);
