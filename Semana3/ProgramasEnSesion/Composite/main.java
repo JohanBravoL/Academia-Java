@@ -10,7 +10,7 @@ public class main {
 		Component c3 = new LeafConstante(4.0);
 		Component c4 = new LeafConstante(5.0);
         
-        Component c5 = new CompositeResta(c1,c2);
+        /* Component c5 = new CompositeResta(c1,c2);
         r = c5.getValor();
         System.out.println(r);
 
@@ -20,7 +20,13 @@ public class main {
 
         Component c7 = new CompositeSuma(c5, c6);
         r = c7.getValor();
-        System.out.println(r);
+        System.out.println(r); */
+
+        System.out.println("Resultado " + new CompositeSuma( 
+            new CompositeMultiplicacion(c3, c4), 
+            new CompositeResta(c1, c2)
+            ).getValor()
+        );
 	}
 
 }
