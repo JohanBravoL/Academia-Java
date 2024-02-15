@@ -1,13 +1,14 @@
 package Semana3.ProgramasEnSesion.Composite;
 
-/* public class abstract ComponentAbs implements Component{
+/* public abstract class ComponentAbs implements Component{
     
     Component componentLeft;
 	Component componentRight;
 	
                 //Consructor
-	public CompositeSuma(Component componentLeft, Component componentRight) {
+	public CompositeSuma(Component, Component) {
 		this.componentLeft = componentLeft;
 		this.componentRight = componentRight;
 	}
 }
+*/
